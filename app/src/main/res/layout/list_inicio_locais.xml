@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="185dp"
+    android:layout_height="200dp"
+    android:background="@drawable/style_emp"
+    android:id="@+id/llGeneral_il">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <ImageView
+            android:id="@+id/iv_inicio_sort"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_logo"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/civ_inicio_sort"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:civ_border_color="#FFFFFF"
+            app:civ_border_width="2dp"
+            android:src="@mipmap/ic_logo"
+            android:layout_alignParentRight="true"
+            android:layout_margin="12dp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_inicio_sort"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="clareamento dental a laser com 20% off"
+        android:textColor="@color/colorPrimary"
+        android:textAllCaps="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+</LinearLayout>
